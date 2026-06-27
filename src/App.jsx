@@ -6,6 +6,7 @@ import About from './components/About'
 import Collab from './components/Collab'
 import './App.css'
 import Visitors from './components/Visitors'
+import Achievements from './components/Achievements'
 
 function App() {
   return (
