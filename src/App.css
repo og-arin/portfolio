@@ -1214,3 +1214,197 @@ body {
   overflow: hidden;
   box-shadow: inset 0 0 60px rgba(100,60,0,0.25), 5px 5px 0 rgba(0,0,0,0.3);
 }
+
+/* ===== RESPONSIVE ===== */
+
+/* ── TABLET (768px) ── */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
+  .nav-links {
+    display: none;
+  }
+
+  /* Hero */
+  .hero-content {
+    grid-template-columns: 1fr;
+    padding: 0 1.5rem;
+    gap: 2rem;
+  }
+  .hero-name {
+    font-size: 4rem;
+  }
+  .hero-right {
+    display: none;
+  }
+  .island {
+    display: none;
+  }
+
+  /* Projects */
+  .projects-section {
+    padding: 3rem 1.5rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Skills */
+  .skills-section {
+    padding: 3rem 1.5rem;
+  }
+  .skills-inner {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .skills-header {
+    text-align: left;
+    align-self: flex-start;
+  }
+  .skills-grid {
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+
+  /* Achievements */
+  .achievements-section {
+    padding: 3rem 1.5rem;
+  }
+
+  /* About */
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .about-img {
+    max-width: 200px;
+  }
+
+  /* Collab */
+  .collab-section {
+    padding: 4rem 1.5rem;
+  }
+  .collab-title {
+    font-size: 3rem;
+  }
+
+  /* Visitors */
+  .visitors-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .v-count {
+    font-size: 5rem;
+  }
+}
+
+/* ── MOBILE (480px) ── */
+@media (max-width: 480px) {
+
+  /* Navbar */
+  .navbar {
+    padding: 1rem;
+  }
+  .nav-cta {
+    font-size: 0.8rem;
+    padding: 0.4rem 1rem;
+  }
+
+  /* Hero */
+  .hero-content {
+    padding: 0 1rem;
+  }
+  .hero-name {
+    font-size: 3.2rem;
+  }
+  .hero-tag {
+    font-size: 0.65rem;
+  }
+  .hero-desc {
+    font-size: 0.88rem;
+  }
+  .hero-btns {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .btn-primary, .btn-secondary {
+    text-align: center;
+  }
+  .octopus {
+    display: none;
+  }
+  .dolphin-pod {
+    display: none;
+  }
+
+  /* Projects */
+  .projects-section {
+    padding: 2.5rem 1rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  /* Skills */
+  .skills-section {
+    padding: 2.5rem 1rem;
+  }
+  .skills-title {
+    font-size: 2.5rem !important;
+  }
+
+  /* Achievements */
+  .achievements-section {
+    padding: 2.5rem 1rem;
+  }
+  .achievements-title {
+    font-size: 2.5rem;
+  }
+
+  /* About */
+  .about-section {
+    padding: 2.5rem 1rem;
+  }
+  .about-title {
+    font-size: 2.5rem;
+  }
+  .about-tags {
+    gap: 0.4rem;
+  }
+
+  /* Collab */
+  .collab-section {
+    padding: 3rem 1rem;
+  }
+  .collab-title {
+    font-size: 2.5rem;
+  }
+  .collab-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .collab-link {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Visitors */
+  .visitors-section {
+    padding: 2.5rem 1rem;
+  }
+  .v-count {
+    font-size: 4rem;
+  }
+  .v-newspaper {
+    padding: 1.2rem;
+  }
+  .v-letter {
+    padding: 1.2rem;
+  }
+}
