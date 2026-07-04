@@ -7,9 +7,9 @@ function Visitors() {
   const [status, setStatus] = useState('')
 
   useEffect(() => {
-    fetch('https://api.countapi.xyz/hit/arin-portfolio/visits')
+    fetch('https://hits.sh/portfolio-amber-eta-31.vercel.app.json')
       .then(res => res.json())
-      .then(data => setCount(data.value))
+      .then(data => setCount(data.count))
       .catch(() => setCount('???'))
   }, [])
 
