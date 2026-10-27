@@ -19,7 +19,7 @@ function About() {
         </div>
         <div className="about-right">
           <p className="about-text">
-  19. First year CS @ NIAT. I build things that scratch my own itch —
+  19. Second year CS @ NIAT. I build things that scratch my own itch —
   tools, apps, cybersec projects. Some shipped, some still cooking.<br />
   I work across the stack —
   from Android apps to CLI tools to browser extensions to security research.<br /><br />
@@ -28,7 +28,7 @@ function About() {
 </p>
           <div className="about-tags">
             <span className="about-tag">🔓 Open Source</span>
-            <span className="about-tag">🏆 Top 4% TryHackMe</span>
+            <span className="about-tag">🏆 Top 3% TryHackMe</span>
             <span className="about-tag">🌐 GSSoC 2026 Contributor</span>
           </div>
         </div>
